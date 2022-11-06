@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+}
+.card{
+    height: 400px;
+    width: 400px;
+    margin: 40px auto;
+}
+
+.picture{
+    position: relative;
+}
+
+.image{
+    border-radius: 20px;
+}
+
+.adventure{
+    position: absolute;
+    top: 38px;
+    left: 59px;
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.days{
+    position: absolute;
+    bottom: 40px;
+    left: 59px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    padding: 3px 19px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ratings{
+    position: absolute;
+    top: 38px;
+    right: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    padding: 3px 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.star{
+    width: 30px;
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+
+.place{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.amount{
+    color: #00BA84;
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+}
+
+.rate{
+    font-size: 20px;
+    color: grey;
+    position: absolute;
+    left:858px;
+    top: 479px;    
+}

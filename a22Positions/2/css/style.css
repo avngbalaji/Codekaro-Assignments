@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    height: 920px;
+    width: 1860px;
+    background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+}
+
+.head4{
+    font-size:45px;
+    position: absolute;
+    top:180px;
+    left: 150px;
+}
+
+.head1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    position: absolute;
+    top: 260px;
+    left: 150px;
+}
+
+.para{
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 50px;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+
+.btn{
+    border: none;
+    font-size: 23px;
+    padding: 25px 75px;
+    font-weight: bold;
+    border-radius: 50px;
+    position: absolute;
+    top: 630px;
+    left: 150px;
+}

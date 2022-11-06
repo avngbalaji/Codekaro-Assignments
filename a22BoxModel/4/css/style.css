@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    height: 500px;
+    width: 650px;
+    margin: 30px auto;
+    background-color: #EAF8F2;
+    border-radius: 15px;
+}
+
+.logo{
+    padding:0;
+}
+
+img{
+    width: 550px;
+}
+
+.content{
+    padding-left: 50px;
+}
+
+.flat{
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.amt{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+}
+
+.flights{
+    font-size: 28px;
+    margin-bottom: 65px;
+}
+
+.code{
+    background-color: #DCE6EF;
+    display: inline;
+    padding: 17px 33px;
+    border: 4px dashed #5041D8;
+    border-radius: 14px;
+    font-size: 25px;
+    font-weight: 550;
+}

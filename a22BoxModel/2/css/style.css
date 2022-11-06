@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    height: 920px;
+    width: 1860px;
+    background-color: blueviolet;
+    color: white;
+    margin: 20px;
+    padding: 200px 200px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.para{
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 42px;
+    
+}
