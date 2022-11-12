@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.big-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.big-boxes{
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 60px 30px;
+    width: 700px;
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.b1{
+    background-image: url('images/big-14.jpg');
+}
+
+.b2{
+    background-image: url('images/big-21.jpg');
+}
+
+.big-content h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.big-content h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.big-btn{
+    font-weight: 600;
+    padding: 5px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 60px;
+}
+
+
+
+.small-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 85px;
+}
+
+.small-boxes{
+    height: 270px;
+    width: 480px;
+    border: 1px solid rgb(212, 207, 207);
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.small-pic{
+    width: 71%;
+    border-radius: 10px;
+}
+
+.small-boxes .left{
+    padding: 10px;
+}
+
+.small-boxes .right{
+    pad: 10px;
+}
+
+.small-boxes .right p{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 185px;
+    top: 50px;
+}
+
+.small-boxes .right h2{
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 185px;
+    top: 132px;
+}
+
+.small-boxes span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.right button{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid rgb(65, 63, 63);
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin-right: 2px;
+    position: absolute;
+    left: 185px;
+    top: 180px;
+}
+
+.right .sbtn1{
+    position: absolute;
+    left: 185px;
+    top: 180px;
+}
+
+.right .sbtn2{
+    position: absolute;
+    left: 282px;
+    top: 180px;
+}
