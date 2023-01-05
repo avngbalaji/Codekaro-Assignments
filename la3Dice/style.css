@@ -36,6 +36,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.btn:active{
+    scale: 1.1;
+}
 .animation{
     animation: rotate 1s linear 1 forwards;
 }

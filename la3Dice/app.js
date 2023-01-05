@@ -11,5 +11,8 @@ function roll(){
     }, 1000)
 
     document.getElementById('dice').innerText='';
+
+    let sound = document.getElementById('sound');
+    sound.play();
 }
 
